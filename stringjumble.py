@@ -1,7 +1,7 @@
 """
 stringjumble.py
-Author: <your name>
-Credit: <sources>
+Author: Glen
+Credit: Hagin, Stack Overflow
 
 Assignment:
 
@@ -28,5 +28,14 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 words = str(input("Please enter a string of text (the bigger the better): "))
 characters = len(words)
 
-print(words)
-print(characters)
+flip1 = words[::-1]
+print(flip1)
+
+flip2 = words .split(' ')[::-1]
+flip2 = " ".join(str(x) for x in flip2)
+print(flip2)
+
+#flip3 = words[::-1]
+flip3 = flip1 .split(' ')[::-1]
+flip3 = " ".join(str(x) for x in flip3)
+print(flip3)
