@@ -28,6 +28,8 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 words = str(input("Please enter a string of text (the bigger the better): "))
 characters = len(words)
 
+print("You entered \"{0}\". Now jumble it:".format(words))
+
 flip1 = words[::-1]
 print(flip1)
 
